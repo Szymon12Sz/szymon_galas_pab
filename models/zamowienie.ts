@@ -21,4 +21,4 @@ const ModelZamowienie = new mongoose.Schema({
   kwota: Number,
 });
 
-module.exports = mongoose.model('Order', ModelZamowienie)
+module.exports = mongoose.model('Order', ModelZamowienie) 
